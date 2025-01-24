@@ -1,0 +1,90 @@
+body{
+    font-family: Poppins;
+    background-color: #121212;
+    color: #B3B3B3;
+}
+.navbar{
+    padding: 10px;
+    display: block;
+    text-align: right;
+    gap: 20px;
+    margin: 10px;
+}
+.navbar a{
+    display: inline;
+    color: #B3B3B3;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    margin-right: 20px;
+}
+.navbar a:hover{
+    color: #1DB954;
+}
+.top{
+    display: block;
+    text-align: center;
+    padding:50px 20px;
+    background:#1DB954;
+    color: rgb(2, 0, 0);
+}
+.top h1{
+    font-size: 70px;
+    font-weight: 900;
+    margin-bottom: 20px;
+    letter-spacing: -2px;
+}
+.top p{
+    font-size: 25px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+.bottom{
+    display: block;
+    padding: 40px;
+}
+.card{
+    display: inline-block;
+    width: 300px;
+    background-color: #252525;
+    border-radius: 10px;
+    padding: 40px;
+    margin: 40px;
+    text-align: center;
+}
+.card:hover{
+    transform: translateY(-12px);
+}
+.card b{
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: #FFFFFF;
+}
+.card p{
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #B3B3B3;
+}
+audio{
+    width: 100%;
+    border-radius: 8px;
+    margin-top: 10px;
+    background-color: #000;
+    border: none;
+}
+hr{
+    border: 0px;
+    height: 1px;
+    background-color: #333;
+    margin: 20px;
+}
+@media (max-width:600px) {
+    .top{
+        background-color: yellow;
+    }
+}
+@media (max-width:800px) AND (min-width:600px){
+    .top{
+        background-color: rgb(255, 153, 0);
+    }
+}
